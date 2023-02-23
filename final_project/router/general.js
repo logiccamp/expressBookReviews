@@ -101,7 +101,7 @@ public_users.get('/title/:title', function (req, res) {
         var book = item[1];
           var book_obj = {
             isbn: index,
-            title: book.title,
+            author: book.author,
             reviews: book.reviews
           }
           result.push(book_obj)
